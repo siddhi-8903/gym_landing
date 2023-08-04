@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Project</title>
+    <style>
+        *{
+            font-family: cursive;
+            /* box-sizing: border-box; */
+        }
+body{
+    margin :0px;
+    padding: 0px;
+    background: url("2122.jpg");
+}
+.left{
+    color: white;
+    position: absolute;
+    display: inline-block;
+    left: 34px;
+ top: 20px;
+}
+.middle{
+    color: white;
+    display: block;
+    margin: 20px auto;
+    width: 45%;
+  
+}
+.right{
+    position: absolute;
+    right: 34px;
+    top: 20px;
+    display: inline-block;
+    color: white;
+
+}
+ .left div{
+    line-height: 19px;
+    font-size: 30px;
+    text-align: center;
+ }
+.navbar{
+    display: inline-block;
+}
+.navbar ul{
+ list-style: none;
+}
+.navbar li{
+display: inline-block;
+/* float: left; */
+font-size: 19px;
+}
+.navbar li a{
+    text-decoration: none;
+    padding: 10px 10px;
+    color: white;
+}
+.navbar li a:hover, .navbar li a :active{
+   text-decoration: underline;
+   color: #918a8a;
+   
+}
+.left img{
+    width: 82px;
+    border-radius: 50%;
+}
+.bt{
+    margin: 0px 9px;
+    background-color: #747874;
+    padding: 3px 14px;
+    border-radius: 10px;
+    font-size: 19px;
+    border: 2px solid grey;
+    cursor: pointer;
+}
+.bt:hover{
+    background-color: rgb(29, 28, 28);
+}
+.container{
+    border: 2px solid white;
+        margin: 106px 80px;
+        padding: 75px;
+        width: 33%;
+        border-radius: 28px;
+        color: white;
+
+   
+}
+.form-group input{
+    text-align: center;
+    display: block;
+        width: 300px;
+        padding: 1px;
+        border: 2px solid black;
+        margin: 5px auto;
+        font-size: 20px;
+        border-radius: 8px;
+}
+h1{
+    text-align: center;
+}
+.container button {
+        display: block;
+        width: 64%;
+        margin: 20px auto;
+        background-color: black;
+        font-size: 20px;
+        color: white;
+    }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="/11.jpg" alt="">
+            <div>Siddhi Fitness</div>
+
+        </div>
+        <div class="middle">
+            <ul class="navbar">
+                <li><a href="$">Home</a></li>
+                <li><a href="$">About Us</a></li>
+                <li><a href="$">Contact us</a></li>
+                <li><a href="$">Fitness Calculator</a></li>
+              </ul>
+        </div>
+        <div class="right">
+         <button class="bt"> Call Us</button><button class="bt">Email Us</button>
+        </div>
+    </header>
+     <div class="container">
+        <h1>Join the best gym now</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email Id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+</html>
